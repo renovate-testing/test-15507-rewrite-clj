@@ -63,7 +63,7 @@
            ;; cognitect test-runner for testing clojure < v1.9
            ;; (we prefer kaocha but it requires a min Clojure version of 1.9)
            :clj-test-runner {:extra-deps {io.github.cognitect-labs/test-runner
-                                          {:git/tag "v0.5.0" :git/sha "b3fd0d2"}}
+                                          {:git/tag "v0.5.1" :git/sha "dfb30dd6605cb6c0efc275e1df1736f6e90d4d73"}}
                              :main-opts ["-m" "cognitect.test-runner"]}
 
            ;; figwheel for clojurescript testing during dev
