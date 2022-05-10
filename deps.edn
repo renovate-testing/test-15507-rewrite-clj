@@ -84,7 +84,7 @@
            ;;
            :script {:extra-paths ["script"]
                     :override-deps {org.clojure/clojure {:mvn/version "1.11.1"}}
-                    :extra-deps {org.clojure/tools.namespace {:mvn/version "1.2.0"}
+                    :extra-deps {org.clojure/tools.namespace {:mvn/version "1.3.0"}
                                  cli-matic/cli-matic {:mvn/version "0.5.3"}}}
 
            :apply-import-vars {:override-deps {org.clojure/clojure {:mvn/version "1.11.1"}}
